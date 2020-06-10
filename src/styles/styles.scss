@@ -1,3 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+
 body {
-  background-color: red;
+  background-color: grey;
+}
+
+#messages {
+  display: flex;
+  
+}
+
+.messageCard {
+  margin: 20px 20px;
+}
+.row {
+  margin-left: 20px;
 }

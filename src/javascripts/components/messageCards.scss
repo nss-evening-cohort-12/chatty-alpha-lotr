@@ -1,0 +1,12 @@
+.messageCard {
+  border: 1px solid  darkgreen;
+}
+
+.messageTop {
+  justify-content: space-between;
+  flex-flow: wrap row;
+  p{
+    width: 200px;
+    margin: 0 0;
+  }
+}
