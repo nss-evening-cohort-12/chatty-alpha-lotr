@@ -1,4 +1,5 @@
-import '../styles/styles.scss';
+import '../styles/main.scss';
+import 'bootstrap';
 import multiUsers from './components/multiUsers';
 
 console.error('HIYA');
