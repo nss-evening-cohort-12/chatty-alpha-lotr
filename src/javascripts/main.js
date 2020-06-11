@@ -1,5 +1,5 @@
+import '../styles/main.scss';
 import 'bootstrap';
-import '../styles/styles.scss';
 import multiUsers from './components/multiUsers';
 import navbar from './navbar/navbar';
 
