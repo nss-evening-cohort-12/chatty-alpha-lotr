@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+@import 'styles';
+@import 'variables';
+
+body {
+    background-color: $green;
+    @include default-font(40px);
+    text-align: center;
+}
