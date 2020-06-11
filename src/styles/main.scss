@@ -7,4 +7,5 @@
 body {
     background-color: $green;
     @include default-font(40px);
+    text-align: center;
 }
