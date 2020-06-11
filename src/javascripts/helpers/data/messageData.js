@@ -25,7 +25,7 @@ const messages = [{
 {
   userID: 'user5',
   timestamp: 'Dec 18 T.A. 3018',
-  message: 'Stable Greenwood noose to mistaken nightfall check children so.',
+  message: 'I will take the Ring, though I do not know the way.',
   id: 5,
 },
 ];

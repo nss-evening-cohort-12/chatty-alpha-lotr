@@ -1,7 +1,7 @@
 const users = [
   {
     id: 'user1',
-    name: 'Aragotn',
+    name: 'Aragon',
   },
   {
     id: 'user2',
@@ -9,15 +9,15 @@ const users = [
   },
   {
     id: 'user3',
-    name: 'Frodo',
+    name: 'Gimli',
   },
   {
     id: 'user4',
-    name: 'Gandalf',
+    name: 'Samwise',
   },
   {
     id: 'user5',
-    name: 'Gimli',
+    name: 'Frodo',
   },
 ];
 
