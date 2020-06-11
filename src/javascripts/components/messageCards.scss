@@ -2,9 +2,12 @@
   border: 1px solid  darkgreen;
 }
 
+#messages {
+  flex-flow: wrap row;
+}
+
 .messageTop {
   justify-content: space-between;
-  flex-flow: wrap row;
   p{
     width: 200px;
     margin: 0 0;
