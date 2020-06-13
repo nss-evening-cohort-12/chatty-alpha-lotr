@@ -6,10 +6,10 @@ import multiUsers from './components/multiUsers';
 import navbar from './navbar/navbar';
 import options from './components/options';
 
-const init = () => {
-  options.buildOptions();
+const init = () => {  
   navbar.printNav();
   multiUsers.buildMultiUsers();
+  options.buildOptions();
   builder.messageBuilder();
 };
 
