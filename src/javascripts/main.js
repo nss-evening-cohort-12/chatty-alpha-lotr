@@ -7,9 +7,9 @@ import navbar from './navbar/navbar';
 import options from './components/options';
 
 const init = () => {
+  options.buildOptions();
   navbar.printNav();
   multiUsers.buildMultiUsers();
-  options.buildOptions();
   builder.messageBuilder();
 };
 

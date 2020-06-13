@@ -5,7 +5,7 @@ import addMessage from '../helpers/addMessage';
 import messageCards from '../components/messageCards';
 
 const printNav = () => {
-  const domString = `<div id="navcontainer" class="d-flex justify-content-center"><div id="logodiv"><img id="logo" class="offset-7" src="${logo}" width="50px" height="50px" alt="one ring logo"></div>
+  const domString = `<div id="navcontainer" class="d-flex justify-content-center"><div id="logodiv"><img id="logo" class="offset-7" src="${logo}" width="75px" height="75px" alt="one ring logo"></div>
   <div class="input-group col-8">
   <input id="messageText" class="form-control m-1" aria-label="With textarea" placeholder="Hit Enter to Send"></input>
   </div>

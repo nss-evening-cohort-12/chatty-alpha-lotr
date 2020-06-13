@@ -17,13 +17,11 @@ const buildOptions = () => {
 };
 
 const updateText = () => {
-  // const cb = document.querySelector('#largeText');
-  const cb = document.getElementById('largeText');
-  console.error(cb.checked);
+  const cb = document.getElementById('largeText');  
   if (cb.checked === true) {
-    document.getElementById('theme').style.fontSize = '50px';
+    document.getElementById('theme').style.fontSize = '60px';
   } else {
-    document.getElementById('theme').style.fontSize = '8px';
+    document.getElementById('theme').style.fontSize = '40px';
   }
 };
 
