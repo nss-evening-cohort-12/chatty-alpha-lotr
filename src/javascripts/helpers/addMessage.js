@@ -22,4 +22,4 @@ const addMessage = () => {
   messageData.addNewMessage(tempMessage);
 };
 
-export default { addMessage };
+export default { addMessage, getUser };
