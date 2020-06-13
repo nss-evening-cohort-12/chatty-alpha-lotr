@@ -1,4 +1,4 @@
-const messages = [{
+let messages = [{
   userID: 'user1',
   timestamp: 'Dec 18 T.A. 3018',
   message: 'If by my life or death I can protect you, I will. You have my sword…',
@@ -36,4 +36,8 @@ const addNewMessage = (message) => {
   messages.push(message);
 };
 
-export default { getMessages, addNewMessage };
+const empty = () => {
+  messages = [];
+};
+
+export default { getMessages, addNewMessage, empty };

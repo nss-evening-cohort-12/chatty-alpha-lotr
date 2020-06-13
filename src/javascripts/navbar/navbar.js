@@ -3,6 +3,7 @@ import logo from '../assets/onering.png';
 import './navbar.scss';
 import addMessage from '../helpers/addMessage';
 import messageCards from '../components/messageCards';
+import data from '../helpers/data/messageData';
 
 const printNav = () => {
   const domString = `<div id="navcontainer" class="d-flex justify-content-center"><div id="logodiv"><img id="logo" class="offset-7" src="${logo}" width="75px" height="75px" alt="one ring logo"></div>
@@ -18,6 +19,9 @@ const printNav = () => {
       messageCards.messageBuilder();
     }
   });
+
+  $('body').on('click', '#clearButton', data.empty);
+  $('body').on('click', '#clearButton', messageCards.messageBuilder);
 };
 
 export default { printNav };
