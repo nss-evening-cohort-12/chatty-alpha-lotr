@@ -20,11 +20,11 @@ const messageBuilder = () => {
     domString += `
       <div class='messageCard'>
         <div class='messageTop d-flex'>
-            <div class='user'>${user}</div>
+            <div class='user'>${user}:</div>
             <div class='timestamp'>${arr[i].timestamp}</div>
         </div>
         <div class='messageBottom d-flex'>
-            <div class='message'>${arr[i].message}</div> 
+            <div class='message'>"${arr[i].message}"</div> 
         </div>  
             <div class='${currentID} delete'>testcan</div>
       </div>
