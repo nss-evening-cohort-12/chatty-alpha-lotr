@@ -60,5 +60,4 @@ const messageBuilder = () => {
   printCans();
 };
 
-
 export default { messageBuilder, printCans };
