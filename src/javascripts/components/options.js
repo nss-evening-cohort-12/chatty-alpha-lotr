@@ -17,7 +17,7 @@ const buildOptions = () => {
 };
 
 const updateText = () => {
-  const cb = document.getElementById('largeText');  
+  const cb = document.getElementById('largeText');
   if (cb.checked === true) {
     document.getElementById('theme').style.fontSize = '60px';
   } else {
