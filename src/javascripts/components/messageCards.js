@@ -2,7 +2,6 @@ import utils from '../helpers/utils';
 import userData from '../helpers/data/userData';
 import data from '../helpers/data/messageData';
 
-
 const messageBuilder = () => {
   let domString = '';
   const arr = data.getMessages();
