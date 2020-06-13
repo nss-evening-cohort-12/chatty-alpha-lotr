@@ -36,5 +36,4 @@ const addNewMessage = (message) => {
   messages.push(message);
 };
 
-
 export default { getMessages, addNewMessage };
