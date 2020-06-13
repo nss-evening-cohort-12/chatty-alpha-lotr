@@ -5,7 +5,6 @@ import addMessage from '../helpers/addMessage';
 import messageCards from '../components/messageCards';
 import data from '../helpers/data/messageData';
 
-
 const printNav = () => {
   const domString = `<div id="navcontainer" class="d-flex justify-content-center"><div id="logodiv"><img id="logo" class="offset-7" src="${logo}" width="75px" height="75px" alt="one ring logo"></div>
   <div class="input-group col-8">
