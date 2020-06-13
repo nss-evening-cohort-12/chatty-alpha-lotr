@@ -1,5 +1,6 @@
 import userData from '../helpers/data/userData';
 import utils from '../helpers/utils';
+import messageCards from './messageCards';
 
 const buildMultiUsers = () => {
   const users = userData.getUsers();
@@ -16,6 +17,8 @@ const buildMultiUsers = () => {
   domString += '</div>';
 
   utils.printToDom('#users', domString);
+  const options = document.getElementsByName('options');
+  options.forEach((option) => option.addEventListener('click', messageCards.printCans));
 };
 
 export default { buildMultiUsers };

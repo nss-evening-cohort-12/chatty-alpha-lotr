@@ -61,4 +61,4 @@ const messageBuilder = () => {
 };
 
 
-export default { messageBuilder };
+export default { messageBuilder, printCans };
