@@ -2,14 +2,26 @@
   border: 1px solid  darkgreen;
 }
 
-#messages {
-  flex-flow: wrap row;
-}
 
 .messageTop {
+  display: flex;
   justify-content: space-between;
-  p{
-    width: 200px;
-    margin: 0 0;
+  .user{
+    width: 40%;
   }
+  .timestamp{
+    width: 40%;
+  }
+}
+.messageBottom {
+  display: flex;
+  justify-content: center;
+  .message {
+    border: 2px solid black;
+    width: 80%;
+  }
+}
+.delete {
+  width: 10%;
+  justify-content: right;
 }
