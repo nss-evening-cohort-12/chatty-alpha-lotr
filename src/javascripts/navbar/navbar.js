@@ -17,6 +17,7 @@ const printNav = () => {
     if (event.keyCode === 13) {
       addMessage.addMessage();
       messageCards.messageBuilder();
+      $('#messageText').val('');
     }
   });
 
