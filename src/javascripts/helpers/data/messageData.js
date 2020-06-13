@@ -36,5 +36,18 @@ const addNewMessage = (message) => {
   messages.push(message);
 };
 
+const removeMessage = (index) => {
+  messages.splice(index, 1);
+};
 
-export default { getMessages, addNewMessage };
+const findMessageIndex = (id) => {
+  const index = messages.findIndex((message) => message.id === id);
+  return index;
+};
+
+export default {
+  getMessages,
+  addNewMessage,
+  removeMessage,
+  findMessageIndex,
+};
