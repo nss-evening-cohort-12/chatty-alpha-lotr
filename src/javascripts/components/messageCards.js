@@ -30,7 +30,7 @@ const messageBuilder = () => {
   const arr = messageData.getMessages();
   const users = userData.getUsers();
   let index = 0;
-  if (arr.length > 20) { index = Array.length - 20; }
+  if (arr.length >= 20) { index = arr.length - 20; }
   for (let i = index; i < arr.length; i += 1) {
     let user = '';
     let currentID = '';
