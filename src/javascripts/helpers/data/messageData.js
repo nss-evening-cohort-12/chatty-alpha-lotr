@@ -48,6 +48,7 @@ const findMessageIndex = (id) => {
 
 const empty = () => {
   messages = [];
+  $('#clearButton').prop('disabled', true);
 };
 
 export default {

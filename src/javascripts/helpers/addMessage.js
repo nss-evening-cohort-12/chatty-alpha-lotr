@@ -20,6 +20,7 @@ const addMessage = () => {
     id: Date.now(),
   };
   messageData.addNewMessage(tempMessage);
+  $('#clearButton').prop('disabled', false);
 };
 
 export default { addMessage, getUser };
