@@ -20,11 +20,9 @@ const printNav = () => {
       messageCards.messageBuilder();
     }
   });
-};
 
-const deleteAll = () => {
   $('body').on('click', '#clearButton', data.empty);
   $('body').on('click', '#clearButton', messageCards.messageBuilder);
 };
 
-export default { printNav, deleteAll };
+export default { printNav };
