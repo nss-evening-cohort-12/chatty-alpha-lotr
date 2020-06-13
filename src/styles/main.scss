@@ -5,21 +5,23 @@
 @import 'variables';
 
 body {
-    background-color: $green;
+    background-color: $britishGreen;
     @include default-font(40px);
     text-align: center;
+    font-family: 'Bilbo', cursive;
+
 }
 
 header {
+  background-color: $darkSienna;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 #messages {
-  position: relative;
-  top:   127px;
+  margin-top: 200px;
 }
 
 .messageCard {
