@@ -3,6 +3,7 @@ import logo from '../assets/onering.png';
 import './navbar.scss';
 import addMessage from '../helpers/addMessage';
 import messageCards from '../components/messageCards';
+import data from '../helpers/data/messageData';
 
 
 const printNav = () => {
@@ -21,4 +22,9 @@ const printNav = () => {
   });
 };
 
-export default { printNav };
+const deleteAll = () => {
+  $('body').on('click', '#clearButton', data.empty);
+  $('body').on('click', '#clearButton', messageCards.messageBuilder);
+};
+
+export default { printNav, deleteAll };

@@ -9,6 +9,7 @@ const init = () => {
   navbar.printNav();
   multiUsers.buildMultiUsers();
   builder.messageBuilder();
+  navbar.deleteAll();
 };
 
 init();
