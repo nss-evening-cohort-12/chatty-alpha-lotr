@@ -1,7 +1,6 @@
 import userData from '../helpers/data/userData';
 import utils from '../helpers/utils';
 
-
 const buildMultiUsers = () => {
   const users = userData.getUsers();
   let domString = '';
