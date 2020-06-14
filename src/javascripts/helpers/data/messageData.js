@@ -41,7 +41,7 @@ const removeMessage = (index) => {
 };
 
 const findMessageIndex = (id) => {
-  const index = messages.findIndex((message) => message.id === String(id));
+  const index = messages.findIndex((message) => String(message.id) === id);
   console.error(index);
   return index;
 };
